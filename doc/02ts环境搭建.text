@@ -1,0 +1,14 @@
+1安装node 
+2安装npm 
+3全局安装ts  npm i -g typescript
+4命令行输入tsc 检测ts是否安装成功
+5创建ts文件
+6执行编译命令
+7ts 可指定编译js的版本
+
+tsc --init 生成typescript配置文件
+tsc --outFile ./temp/index.js   ./文件名/生成文件别名    --指定文件输出路径
+
+dir  查看当前文件夹内的文件
+
+del +文件名 删除当前指定文件内容
