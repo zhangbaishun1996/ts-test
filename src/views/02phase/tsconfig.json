@@ -1,0 +1,20 @@
+{
+    "include": ["./src/**/*"],   // 包含 ./src/**/* **表示任意目录  *表示任意文件
+    // "exclude": ["./src/hello.ts"]   //不需要编译的文件
+    "compilerOptions": {// 编译器选项
+        "target": "ES5",  // 指定es版本
+        "module": "system", //使用模块化规范
+       // "lib": [], //指定项目中使用的库
+       "outDir": "./dist", // 指定编译后文件输出目录
+        "outFile": "./dist/app.js",
+        "allowJs": false, // 是否对js文件进行编译
+        "checkJs": false, //检查js代码是否符合规范
+        "removeComments": false, //是否移除注释
+        "noEmit": false, //不生成编译后的文件
+        "noEmitOnError": false, //当有错误时不生成编译后的文件
+        "alwaysStrict": false ,//指定编译后的文件是否为严格模式
+        "noImplicitAny": false, //不允许隐式any
+        "strictNullChecks": false, // 严格检查空值
+        "strict": false //严格检查总开关  
+     }
+}

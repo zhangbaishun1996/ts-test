@@ -1,0 +1,23 @@
+1、 安装开发依赖 npm/cnpm i -D webpack webpack-cli typescript ts-loader
+
+2、配置webpack.config.js文件
+
+3、配置tsconfig.json文件
+
+4、配置pakgage.json文件 配置build 字段
+
+5、安装html插件 html-webpack-plugin 处理html模板  使用方式 见webpack.config.js
+
+6、安装 webpack-dev-server 开发服务器！项目内置服务器 cnpm i -D xxx  pakgage.json配置start字段
+
+    webpack-dev-server配置谷歌浏览器打开  "start": "webpack serve --open" 默认浏览器运行
+
+7、clean-webpack-plugin //清除dis文件在更新  使用方式 见webpack.config.js
+
+8、babel 转换js新旧语法 安装babel cnpm i -D @babel/core @babel/preset-env babel-loader core-js
+
+@babel/core 核心工具
+@babel/preset-env 预设环境
+babel-loader 结合工具
+core-js 模拟js运行环境
+详细见webpack.config.js 
