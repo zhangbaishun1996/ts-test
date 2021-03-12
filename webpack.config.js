@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 //webpack 配置信息
 module.exports = {
     //入口文件
-    entry:"./src/index.ts",
+    entry:"./src/views/03object_oriented/index.ts",
     mode: 'development' ,
     output:{
         // 指定输出文件打包的位置
